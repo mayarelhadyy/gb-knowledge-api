@@ -1,0 +1,29 @@
+# Virtual environments
+.venv-linux/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Local database
+chat.db
+*.db
+
+# Chroma local database
+chroma_db/
+
+# Uploaded files
+uploads/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

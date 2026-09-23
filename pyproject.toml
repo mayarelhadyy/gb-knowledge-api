@@ -1,0 +1,14 @@
+[project]
+name = "gb-knowledge-api"
+version = "0.1.0"
+description = "GB Knowledge API using FastAPI and RAG"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-multipart",
+    "pypdf",
+    "chromadb",
+    "sentence-transformers"
+]
